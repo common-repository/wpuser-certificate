@@ -1,0 +1,201 @@
+#wpwrap {
+  background-color: #f5f7fa !important;
+}
+
+#wpcontent {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.form-group-nobootstrap {
+  margin-bottom: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.viewcoursebtn {
+  color: white;
+}
+.viewcoursebtn:hover {
+  color: white;
+}
+
+.dashboardcertificate_container {
+  padding: 10px 10px 10px 0;
+  overflow: hidden;
+}
+.dashboardcertificate_container * {
+  font-family: sans-serif;
+}
+.dashboardcertificate_container .maintitle {
+  font-weight: bold;
+  color: #666;
+}
+
+.allcourses .singlecourse {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 30px 0px;
+  padding: 10px;
+  border-radius: 15px;
+  min-height: 150px;
+  position: relative;
+  overflow: hidden;
+  background: transparent;
+  transition: all 0.2s linear;
+}
+.allcourses .singlecourse:hover {
+  background: #fafafa;
+}
+.allcourses .singlecourse .bottomcontent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 10px;
+  border-top: 1px solid #666;
+  display: flex;
+  justify-content: space-between;
+}
+.allcourses .singlecourse .title {
+  font-weight: bold;
+  color: #666;
+}
+.allcourses .singlecourse button,
+.allcourses .singlecourse a {
+  font-size: 12px;
+  padding: 5px;
+  width: 30%;
+}
+.allcourses .singlecourse form {
+  width: 30%;
+}
+.allcourses .singlecourse form button {
+  width: 100%;
+}
+
+.update-nag {
+  display: none;
+}
+
+.coursestabs {
+  margin-bottom: 20px;
+}
+
+.uploadcertificate .title {
+  color: #666;
+}
+.uploadcertificate .image-preview-wrapper {
+  margin-bottom: 20px;
+}
+
+.certification-viewer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.certification-viewer .header {
+  position: fixed;
+  right: 70px;
+  bottom: 50px;
+  width: 230px;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #666;
+}
+.certification-viewer .header input[type=text] {
+  width: 100%;
+}
+.certification-viewer .header span,
+.certification-viewer .header input {
+  font-size: 14px;
+  color: #666;
+}
+.certification-viewer .header input[type=submit] {
+  color: white;
+}
+.certification-viewer .title {
+  color: #666;
+}
+.certification-viewer .certification-viewer-body {
+  position: relative;
+  width: 701.6px;
+  height: 496px;
+}
+.certification-viewer .certification-viewer-body .text-viewer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.certification-viewer .certification-viewer-body .certification-viewer-image {
+  width: 100%;
+  height: 100%;
+}
+.certification-viewer .certification-viewer-body .text-viewer-center-inall {
+  transform: translateY(-50%) translateX(-50%);
+  top: 50% !important;
+  left: 50% !important;
+}
+.certification-viewer .certification-viewer-body .text-viewer-center-topbottom {
+  transform: translateY(-50%);
+  top: 50% !important;
+}
+.certification-viewer .certification-viewer-body .text-viewer-center-leftright {
+  transform: translateX(-50%);
+  left: 50% !important;
+}
+
+.height30 {
+  height: 30px;
+}
+
+.wpsetupsection_left {
+  margin-left: 50px;
+}
+.wpsetupsection_left .wp_dropdown_pages {
+  width: 500px;
+  display: inline-block;
+}
+.wpsetupsection_left .wp_dropdown_pages select {
+  width: 100%;
+  max-width: 100%;
+  padding: 2px 14px;
+}
+.wpsetupsection_left .wpsubmitnicebutton {
+  padding: 4px 14px;
+}
+
+.shortcodes .text {
+  font-size: 14px;
+  color: #666;
+}
+.shortcodes .text .shortcode {
+  background: #2386c8;
+  color: white;
+  padding: 6px;
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+}
+
+.checkmylicenseform {
+  width: 500px;
+}
+
+.wpdashboard_usersloginform {
+  margin: 0 !important;
+  width: 100%;
+  max-width: 100% !important;
+}
+.wpdashboard_usersloginform input {
+  width: 100%;
+}
+
+.wpsetupsection {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 30px;
+}
+
+/*# sourceMappingURL=certificationadminpage.css.map */
